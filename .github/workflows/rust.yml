@@ -11,12 +11,17 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        project: ['hello-world', 'std_in_hello_world']
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build
-      run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+
+    - name: Build ${{ matrix.project }}
+      run: cd ${{ matrix.project }} && cargo build --verbose
+
+    - name: Run tests for ${{ matrix.project }}
+      run: cd ${{ matrix.project }} && cargo test --verbose
