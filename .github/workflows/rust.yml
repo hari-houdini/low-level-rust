@@ -15,7 +15,15 @@ jobs:
 
     strategy:
       matrix:
-        project: ['hello-world', 'std_in_hello_world']
+        project: 
+          - 'hello-world'
+          - 'std_in_hello_world'
+          - 'arrays-and-slices'
+          - 'control-flow'
+          - 'tuples-structs-enum'
+          - 'variables'
+          - 'pattern-matching'
+        
 
     steps:
     - uses: actions/checkout@v4
