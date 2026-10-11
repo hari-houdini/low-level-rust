@@ -52,4 +52,31 @@ fn main() {
     let x = x + 1;
 
     println!("{} {} {}", x, y ,PI);
+
+    /* Primitive Datatypes */
+    // Default type - signed 32 bit integer
+    // others are i8, i16, i32, i64, i128
+    // Similarly for unsigned. u8, u16...
+    // usize/isize would be bit size of arch. 
+    // For example, usize in a 32bit arch would be u32.
+    let i = 23;
+    
+    // 32 bit in rust, so supports unicodes and emojis
+    let c: char = 'a';
+
+    // Unit types - rust equivalent of null
+    let unit: () = ();
+
+    // String
+    let str: &str = "string type";
+
+    // Slice type
+    let slice: &[i32];
+
+    // Boolean
+    // Numbers are not truthy by default. 
+    // Eg: let isTrue: bool = 1; will throw error
+    // let isTrue: bool = 1 != 0; will not error
+    // let isTrue: bool = 1 as bool; will also throw error
+    let isTrue: bool = true;
 }
