@@ -24,6 +24,7 @@ jobs:
           - 'variables'
           - 'pattern-matching'
           - 'ownership'
+          - 'borrow-references'
         
 
     steps:
