@@ -23,6 +23,7 @@ jobs:
           - 'tuples-structs-enum'
           - 'variables'
           - 'pattern-matching'
+          - 'ownership'
         
 
     steps:
