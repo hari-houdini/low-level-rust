@@ -25,6 +25,7 @@ jobs:
           - 'pattern-matching'
           - 'ownership'
           - 'borrow-references'
+          - 'implementations'
         
 
     steps:
