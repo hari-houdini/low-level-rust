@@ -26,6 +26,7 @@ jobs:
           - 'ownership'
           - 'borrow-references'
           - 'implementations'
+          - 'traits'
         
 
     steps:
