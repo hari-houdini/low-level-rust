@@ -27,6 +27,7 @@ jobs:
           - 'borrow-references'
           - 'implementations'
           - 'traits'
+          - 'generics'
         
 
     steps:
