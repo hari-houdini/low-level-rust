@@ -30,6 +30,7 @@ jobs:
           - 'generics'
           - 'box-type'
           - 'vectors'
+          - 'hashmaps'
         
 
     steps:
