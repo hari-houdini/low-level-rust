@@ -28,6 +28,7 @@ jobs:
           - 'implementations'
           - 'traits'
           - 'generics'
+          - 'box-type'
         
 
     steps:
