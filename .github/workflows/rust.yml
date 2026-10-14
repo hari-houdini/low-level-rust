@@ -29,6 +29,7 @@ jobs:
           - 'traits'
           - 'generics'
           - 'box-type'
+          - 'vectors'
         
 
     steps:
